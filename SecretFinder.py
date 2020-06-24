@@ -60,6 +60,8 @@ _regex = {
     'ssh_dc_private_key' : r'-----BEGIN EC PRIVATE KEY-----',
     'pgp_private_block' : r'-----BEGIN PGP PRIVATE KEY BLOCK-----',
     'json_web_token' : r'ey[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$',
+    'Slack_webHook' : r'hooks\.slack\.com/services/T.*',
+    'Slack_token' : r'xox[p|a|r]-.*'
 }
 
 _template = '''
