@@ -66,10 +66,8 @@ _regex = {
     'ssh_dc_private_key' : r'-----BEGIN EC PRIVATE KEY-----',
     'pgp_private_block' : r'-----BEGIN PGP PRIVATE KEY BLOCK-----',
     'json_web_token' : r'ey[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$',
-<<<<<<< HEAD
     'Slack_webHook' : r'hooks\.slack\.com/services/T.*',
     'Slack_token' : r'xox[p|a|r]-.*'
-=======
     'slack_token' : r"\"api_token\":\"(xox[a-zA-Z]-[a-zA-Z0-9-]+)\"",
     'SSH_privKey' : r"([-]+BEGIN [^\s]+ PRIVATE KEY[-]+[\s]*[^-]*[-]+END [^\s]+ PRIVATE KEY[-]+)",
     'possible_Creds' : r"(?i)(" \
@@ -77,7 +75,6 @@ _regex = {
                     r"password is\s*[`=:\"]*\s*[^\s]+|" \
                     r"pwd\s*[`=:\"]*\s*[^\s]+|" \
                     r"passwd\s*[`=:\"]+\s*[^\s]+)",
->>>>>>> f503370a7a83460cbb532a5ed555031c2e8f783b
 }
 
 _template = '''
